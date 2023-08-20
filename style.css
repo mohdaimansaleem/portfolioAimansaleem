@@ -1,0 +1,299 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.navButtons {
+    background-color: rgb(0, 0, 0);
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navButtons a {
+    height: 50px;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navButtons a:hover {
+    border-bottom: 2px solid rgb(96, 107, 201);
+    color: white;
+}
+
+a[href="mailto:aimansaleemmohd@gmail.com"] {
+    margin-left: 10px;
+    border-bottom: 2px solid crimson;
+}
+
+.redColor {
+    font-size: 7vh;
+    color: darkred;
+}
+
+.intro {
+    margin-top: 15px;
+}
+
+.links {
+    padding-top: 50px;
+}
+
+.image {
+    width: 50vw;
+    padding-top: 15px;
+    padding-top: 20vh;
+}
+
+.image img {
+    border: 1px solid brown;
+    border-bottom-color: rgb(96, 107, 201);
+    border-right-color: rgb(96, 107, 201);
+}
+
+.slide h4 {
+    font-size: 10vh;
+}
+
+.slide {
+    font-family: 'Handjet', cursive;
+    background-color: rgb(0, 0, 0);
+    height: 90vh;
+    border-top: 2px solid black;
+    display: flex;
+    padding: 20px;
+}
+
+.linklogo {
+    padding: 10px;
+    height: 60px;
+    width: auto;
+}
+
+.text {
+    color: white;
+    width: 50vw;
+    padding: 10vh;
+}
+
+.subhead {
+    display: block;
+    height: 20vh;
+    color: #7f7f7f;
+}
+
+.image {
+
+    display: inline-flex;
+    flex-direction: row-reverse;
+    width: 30vw;
+
+}
+
+img {
+    border-radius: 10%;
+    width: auto;
+    height: 40vh;
+}
+
+/*
+education css starts
+*/
+
+.education {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.education h3 {
+    font-size: 3vw;
+    text-align: center;
+    border-bottom: 4px solid crimson;
+    width: 16vw;
+    margin: auto;
+}
+
+.eng {
+    display: flex;
+    width: 70vw;
+    margin: auto;
+    border-bottom: 2px solid brown;
+    padding: 20px;
+}
+
+.engimg img {
+    width: 30vw;
+    height: auto;
+}
+
+.engtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+}
+
+.project h3 {
+    height: 60px;
+    font-size: 3vw;
+    text-align: center;
+    border-bottom: 4px solid crimson;
+    width: 16vw;
+    margin: auto;
+}
+
+.skills h3 {
+    height: 60px;
+    font-size: 3vw;
+    text-align: center;
+    border-bottom: 4px solid crimson;
+    width: 16vw;
+    margin: auto;
+}
+
+.underline {
+    border-bottom: 4px solid crimson;
+    height: 60px;
+}
+
+.head1 {
+
+    font-family: 'Roboto Slab', serif;
+}
+
+.head2 {
+    font-weight: lighter;
+}
+
+.inter {
+    display: flex;
+    width: 70vw;
+    margin: auto;
+    padding-top: 10px;
+    border-bottom: 2px solid brown;
+    padding: 20px;
+
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.interimg img {
+    width: 30vw;
+    height: auto;
+}
+
+.intertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+}
+
+
+.school {
+    display: flex;
+    width: 70vw;
+    margin: auto;
+    padding-top: 10px;
+    border-bottom: 2px solid brown;
+    padding: 20px;
+}
+
+.schoolimg img {
+    width: 30vw;
+    height: auto;
+}
+
+.schooltext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+}
+
+/*
+education css ends
+*/
+
+.skills {
+    background-color: black;
+    color: white;
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box {
+    align-self: center;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.box ol {
+    list-style-type: none;
+}
+
+.box li {
+    padding: 2px;
+}
+
+.box h3 {
+    color: brown;
+    padding: 10px;
+    text-align: center;
+}
+
+.project {
+    padding-top: 10vh;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.projectDiv {
+    padding-top: 50px;
+    width: 50vw;
+    margin: auto;
+    height: 30vh;
+}
+
+.projectDiv a {
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid brown;
+    height: 10px;
+}
+
+.title {
+    color: brown;
+    padding-bottom: 10px;
+}
+
+/*
+footer css starts
+*/
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/*
+footer css ends
+*/
